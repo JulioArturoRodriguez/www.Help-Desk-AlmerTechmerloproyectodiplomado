@@ -20,6 +20,7 @@ const Main = () => {
     // Función para cambiar la imagen activa
     const scrollToImage = (index) => {
         setCurrentIndex(index);
+        
     };
 
     // Función para cambiar de imagen al hacer clic en los botones de navegación
