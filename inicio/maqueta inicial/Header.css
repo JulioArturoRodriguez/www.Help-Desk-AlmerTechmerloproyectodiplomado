@@ -1,0 +1,59 @@
+/* Header.css */
+.navbar {
+    font-family: 'Orbitron', sans-serif; /* Aplica la fuente futurista */
+    background-color: rgba(17, 15, 117, 0.623); 
+    border-bottom: 2px solid #00BFFF; 
+    color: aliceblue; 
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    color: white; 
+    padding: 5px; 
+    border-radius: 5px; 
+}
+
+.nav-link {
+    font-size: 1.2rem; 
+    color: white; 
+    background-color: transparent; 
+}
+
+.nav-link:hover {
+    color: aliceblue; /* Color al pasar el mouse */
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+/* Estilos para el Offcanvas */
+.offcanvas {
+    background-color: bisque; 
+    color: white; 
+    border: 2px solid #00BFFF;
+    border-radius: 5px; 
+}
+
+.offcanvas-header {
+    background-color: rgba(17, 15, 117, 0.623); /* Fondo negro para el encabezado */
+    color: white; /* Color del texto del encabezado */
+    border-bottom: 2px solid #00BFFF; 
+}
+
+.offcanvas-body {
+    background-color: black; /* Fondo negro del cuerpo del Offcanvas */
+    color: white; 
+}
+
+.offcanvas-body .nav-link {
+    color: whitesmoke; 
+}
+
+.offcanvas-body .nav-link:hover {
+    color: #00BFFF; /* Color al pasar el mouse sobre los enlaces en el Offcanvas */
+}
+
+/* Asegúrate de que el Offcanvas ocupe todo el alto de la pantalla */
+.offcanvas {
+    height: 100vh; /* Ocupar toda la altura de la pantalla */
+    overflow-y: auto; /* Permitir scroll si el contenido es muy largo */
+}
+
