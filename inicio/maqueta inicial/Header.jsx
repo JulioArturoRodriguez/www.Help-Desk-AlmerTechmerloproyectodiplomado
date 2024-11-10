@@ -7,7 +7,7 @@ const Header = () => {
     const [show, setShow] = useState(false); // Estado para manejar la visibilidad del Offcanvas
 
     const handleClose = () => setShow(false); 
-    const handleShow = () => setShow(true); // Función para mostrar el Offcanvas
+    const handleShow = () => setShow(true); 
 
     return (
         <>
