@@ -1,8 +1,8 @@
 
 
-import Header from './maqueta inicial/Header';
-import Main from './maqueta inicial/Main';
-import Footer from './maqueta inicial/Footer';
+import Header1 from './maqueta inicial/Header1';
+import Main1 from './maqueta inicial/Main1';
+import Footer1 from './maqueta inicial/Footer1';
 
 
 
@@ -11,9 +11,9 @@ const Inicio = () => {
     return (
         <>
         
-         <Header />              
-         <Main />
-         <Footer />
+         <Header1 />              
+         <Main1 />
+         <Footer1 />
                
            
         </>
