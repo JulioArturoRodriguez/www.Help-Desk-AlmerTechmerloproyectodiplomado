@@ -1,8 +1,8 @@
 
 
-import Header1 from './maqueta inicial/Header1';
-import Main1 from './maqueta inicial/Main1';
-import Footer1 from './maqueta inicial/Footer1';
+import Header1 from './maqueta inicial/Header';
+import Main1 from './maqueta inicial/Main';
+import Footer1 from './maqueta inicial/Footer';
 
 
 
